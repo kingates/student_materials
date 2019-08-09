@@ -1,0 +1,10 @@
+*** Settings ***
+Library           SeleniumLibrary
+
+*** Variables ***
+${SITE1}          http://www.wikipedia.org/    # Wikipedia URL
+
+*** Test Cases ***
+Test1
+    Open Browser    ${SITE1}
+    Maximize Browser Window
